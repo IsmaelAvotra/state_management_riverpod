@@ -31,7 +31,6 @@ class HomePage extends StatelessWidget {
           centerTitle: true,
         ),
         body: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const FilterWidget(),
             Consumer(builder: (context, ref, child) {
