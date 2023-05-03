@@ -21,7 +21,7 @@ class FilmsWidget extends ConsumerWidget {
         itemBuilder: (context, index) {
           final film = films.elementAt(index);
           final favoriteIcon = film.isFavorite
-              ? const Icon(Icons.favorite)
+              ? const Icon(Icons.favorite, color: Colors.red)
               : const Icon(Icons.favorite_border);
           return ListTile(
             title: Text(film.title),

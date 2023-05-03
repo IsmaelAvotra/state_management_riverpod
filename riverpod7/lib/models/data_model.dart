@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
+enum FavoriteStatus {
+  all,
+  favorite,
+  notFavorite,
+}
+
 @immutable
 class Film {
   final String id;
